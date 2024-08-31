@@ -103,7 +103,6 @@ header{
     height: var(--floor-height);
     width: 90px;
     background-color: var(--secondary-color);
-    /* border: 1px solid white; */
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -181,7 +180,7 @@ button.down:hover{
     align-items: center;
 }
 
-/* media queries - for responsiveness */ 
+
 @media (width <= 380px) {
     :root{
         --floor-height: 60px;
